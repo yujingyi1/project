@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: skyblue;
+        }
+
+        p {
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        .img-container {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        h1 {
+            color: rgb(214, 223, 90);
+            text-align: center;
+        }
+
+        h2{
+            color:white;
+            text-align: center;
+        }
+
+        .footer h1{
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(34, 160, 174);
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Travel</h1>
+
+    <p>旅行是对庸常生活的一种越狱.</p>
+
+    <div class="clearfix">
+
+        <div class="img-container">
+            <img src="https://img1.baidu.com/it/u=1646294069,3432857231&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" alt="Phuket" style="width:100%">
+            <h2>Phuket</h2>
+        </div>
+        <div class="img-container">
+            <img src="https://img2.baidu.com/it/u=644436367,717091081&fm=253&fmt=auto&app=120&f=JPEG?w=640&h=401" alt="Fujiyama" style="width:100%">
+            <h2>Fujiyama</h2>
+        </div>
+    
+        <div class="img-container">
+            <img src="https://img1.baidu.com/it/u=4223449128,2267763245&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" alt="Greenland" style="width:100%">
+            <h2>Greenland</h2>
+        </div>
+    </div>
+
+    <div class="clearfix">
+        <div class="img-container">
+            <img src="https://img0.baidu.com/it/u=2483795294,1960564983&fm=253&fmt=auto&app=138&f=JPEG?w=750&h=500" alt="Tibet" style="width:100%">
+            <h2>Tibet</h2>
+        </div>
+        <div class="img-container">
+            <img src="https://img2.baidu.com/it/u=3385126824,257093686&fm=253&fmt=auto&app=138&f=JPEG?w=719&h=480" alt="Paris" style="width:100%">
+            <h2>Paris</h2>
+        </div>
+        <div class="img-container">
+            <img src="https://photo.tuchong.com/1070213/f/1169231677.jpg" alt="Disney" style="width:100%">
+            <h2>Disney</h2>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h1>热爱什么就追逐什么.</h1>
+    </div>
+
+</body>
+
+</html>
